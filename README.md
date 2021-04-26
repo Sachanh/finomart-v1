@@ -1,2 +1,2 @@
-# finomart-v1
+# FinoMart
 Created with CodeSandbox
