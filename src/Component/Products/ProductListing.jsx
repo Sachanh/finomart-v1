@@ -11,10 +11,10 @@ export function ProductListing() {
   const {filteredData} =useFilters();
   return (
     <div className="main">
-      
-      <div className="card-outer-div">
       <ProductShorting />
       <ProductFilter />
+      <div className="card-outer-div">
+      
         {filteredData.map((item) => (
           <div key={item.id} className="offer__card">
             <img src={item.image} max-width="100%" alt={item.productName} />
